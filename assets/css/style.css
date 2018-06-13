@@ -1,0 +1,30 @@
+.title {
+    font-size: 60px;
+}
+
+#randomNum {
+    border: solid red;
+    width:150px;
+    height: 150px;
+}
+
+#score {
+    border: solid green;
+    width: 200px;
+    height: 200px;
+}
+
+#crystalContainer {
+    border: solid blue;
+    width: 550px;
+    height: 200px;
+}
+
+.crystal {
+    border: solid orange;
+    height: 150px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+    
+}
