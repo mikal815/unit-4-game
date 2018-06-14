@@ -5,6 +5,7 @@
 
 #randomNum {
     border: solid red;
+    background-color: lightcoral;
     width:150px;
     height: 150px;
     font-size: 50px;
@@ -12,8 +13,9 @@
     margin: 0 auto;
 }
 
-#current {
+#currentContainer {
     border: solid gray;
+    background-color: lightgray;
     width: 150px;
     height: 150px;
     font-size: 40px;
@@ -21,8 +23,9 @@
     margin: 0 auto;
 }
 
-#score {
+#winLoss {
     border: solid green;
+    background-color: lightgreen;
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -30,14 +33,16 @@
 
 #crystalContainer {
     border: solid blue;
+    background-color: lightblue;
     width: 550px;
     height: 200px;
     margin: 0 auto;
     
 }
 
-.crystal {
+.elem {
     border: solid orange;
+    background-color: rgb(240, 185, 104);
     height: 150px;
     width: 23.5%;
     display: inline-block;
